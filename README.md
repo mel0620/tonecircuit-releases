@@ -27,7 +27,6 @@ https://github.com/mel0620/tonecircuit-releases/releases
 - Move loaded patches up or down in the patch list.
 - Arrange the signal chain.
 - Use a focused Live view with large stomp-style controls.
-- Import your own `algorithm.xml` file to show the proper GP-200 effect names, choices, ranges, and parameter labels.
 - Use the app without an account or cloud sync.
 
 ## Requirements
@@ -38,20 +37,6 @@ https://github.com/mel0620/tonecircuit-releases/releases
 - The GP-200 must be powered with its own power supply.
 
 Charge-only USB-C cables will not work. If the app cannot find the pedal, try another cable first.
-
-## Effect Catalog
-
-ToneCircuit does not include Valeton's `algorithm.xml` file.
-
-To see the proper GP-200 effect names and parameter labels, import your own copy from the GP-200 Editor software installed on your computer:
-
-```text
-<Valeton editor install>\Resource\GP-200\File\algorithm.xml
-```
-
-Copy that file to your phone, then open ToneCircuit and choose it from the setup screen.
-
-Without this file, the app can still run, but some controls may use generic names.
 
 ## Install
 
